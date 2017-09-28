@@ -1,0 +1,127 @@
+
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+/* padded section */
+.pad-section {
+padding: 50px 0;
+}
+.pad-section img {
+width: 100%;
+}
+
+/* vertical-centered text */
+
+.text-vcenter {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.text-vcenter h1 {
+font-size: 4.5em;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
+
+
+/* additional sections */
+#home {
+background: url(../images/fin.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#aboutse {
+background: url(../images/sjm.jpg) no-repeat center center fixed; 
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#services {
+background-color: #306d9f;
+color: #ffffff;
+}
+#services .glyphicon {
+border: 2px solid #FFFFFF;
+border-radius: 50%;
+display: inline-block;
+font-size: 60px;
+height: 140px;
+line-height: 140px;
+text-align: center;
+vertical-align: middle;
+width: 140px;
+}
+
+
+#information {
+background: url(../images/q.png) no-repeat center center fixed; 
+display: table;
+height: 800px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#information .panel {
+opacity: 0.85;
+}
+
+
+
+
+
+
+.front{
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+//testimonials
+
+.content{
+margin-top:200px;    
+}
+
+.adjust1{
+float:left;
+width:100%;
+}
+.adjust2{
+margin:0;
+}
+.media-object{
+margin:auto;
+}
+
+
+//dailyhat673
+
